@@ -96,7 +96,7 @@ const Projects = () => {
           ))}
         </div>
       ) : (
-        <p className="text-center text-nowrap text-gray-400 text-lg p-[154px]">
+        <p className="flex justify-center items-center text-center text-nowrap text-gray-400 text-lg p-[154px]">
           No projects found
         </p>
       )}

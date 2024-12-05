@@ -24,7 +24,6 @@ const TestimonialCard = ({ testimonial, position, onClick }) => {
       onClick={onClick}
       style={{
         width: "calc(100% - 4rem)",
-        boxShadow: "0 5px 50px rgba(255, 255, 255, 0.05)",
       }}
     >
       <div
