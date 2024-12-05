@@ -96,7 +96,9 @@ const Projects = () => {
           ))}
         </div>
       ) : (
-        <p className="text-center text-gray-400 text-lg p-[154px]">No projects found</p>
+        <p className="text-center text-nowrap text-gray-400 text-lg p-[154px]">
+          No projects found
+        </p>
       )}
     </section>
   );
